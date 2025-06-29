@@ -1,4 +1,4 @@
-# 🍽️ Jaundice Detection in Newborns (Image-Based)
+# Jaundice Detection in Newborns (Image-Based)
 
 This project is a Flask-based web application that detects jaundice in newborn babies by analyzing facial images. It uses a Convolutional Neural Network (CNN) trained on labeled image data to classify between "normal" and "jaundice" conditions.
 

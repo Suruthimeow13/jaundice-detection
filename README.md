@@ -26,7 +26,8 @@ The model is trained on facial images of newborns with two labels:
 ├── app.py                            # Flask backend with image upload and prediction logic
 ├── templates/
 │   └── index.html                    # HTML UI for uploading images (served via Flask)
-├── static/                           # Optional: CSS/images if used for UI styling
+├── static/
+│   └── style.css                     # CSS for styling
 ├── jaundice in new born baby.ipynb   # Model training notebook (CNN using image dataset)
 ├── processed_dataset/                # Resized and labeled training images
 ├── jaundice_model.keras              # Trained CNN model used in app.py

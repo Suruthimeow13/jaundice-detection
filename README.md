@@ -79,7 +79,8 @@ http://127.0.0.1:5000/
 * User uploads an image of a newborn.
 * Flask receives and preprocesses the image.
 * The CNN model (`jaundice_model.keras`) predicts the probability of jaundice.
-* The result ("Normal" or "Jaundice") is displayed in the browser.
+* The result is displayed in the browser.
+* If the child has jaundice (severe) it let you know the nearby hospitals.
 
 ---
 
